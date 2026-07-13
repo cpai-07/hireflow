@@ -22,5 +22,17 @@
     "notes": "good candidate",
     "created_at": "2026-07-13 18:36",
     "updated_at": "2026-07-13 18:39"
+  },
+  {
+    "id": "cand-c253d9bc",
+    "name": "MSD",
+    "email": "MSD@email.com",
+    "phone": "12345",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "status": "interviewed",
+    "notes": "Excellent interview performance",
+    "created_at": "2026-07-13 22:01",
+    "updated_at": "2026-07-13 22:03"
   }
 ]
