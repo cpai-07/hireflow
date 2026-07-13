@@ -8,14 +8,13 @@ For small staffing firms, the candidates, job roles, and placements are typicall
 
 ### The Problem It Solves
 
-The problem it solves:
-
 - No central system to track candidate progress
 - Search and filter by role and status is difficult.
 - No automatic communication on hire date to candidate.
 - There is a manual matching effort between candidates and job roles.
 
-The Solution
+### The Solution
+
 A complete web application with:
 
 - This is a React front end to a clean, responsive recruiter interface.
@@ -184,7 +183,7 @@ Everything was developed on separate feature branches then merged to the dev bra
 ## Key Design Decisions
 
 **Why JSON over SQLite?**  
-The project brief explicitly states that JSON files can be used as a storage option. JSON files are simpler to set up, human readable, easier to debug, and for a small dataset a proof-of-concept is preferable to a relational database.
+The project brief explicitly states that JSON files can be used as a storage option. JSON files are simpler to set up, human readable, easier to debug, and for a small dataset a proof of concept is preferable to a relational database.
 
 **Why React over plain JavaScript?**  
 React is a JavaScript library, it meets the brief's requirement for JavaScript. It offers a component based structure which facilitates easier UI maintenance and scalability, and is explicitly stated as an appropriate library/framework in the shortlisted.
@@ -193,4 +192,4 @@ React is a JavaScript library, it meets the brief's requirement for JavaScript. 
 With Axios, making HTTP requests is a breeze it automatically parses JSON responses, cleans up the error handling and lets you set one base URL and use it for every API call.
 
 **Why Flask?**  
-The flask python backend is explicitly recommended in the short. It is a micro-framework that supports routing and handling of requests without unnecessary overhead, perfect for a REST API proof of concept.
+The flask python backend is explicitly recommended in the short. It is a micro framework that supports routing and handling of requests without unnecessary overhead, perfect for a REST API proof of concept.
