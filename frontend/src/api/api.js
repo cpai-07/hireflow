@@ -27,3 +27,12 @@ export const addJobRole = (data) => axios.post(`${BASE_URL}/jobroles`, data);
 export const updateJobRole = (id, data) =>
   axios.put(`${BASE_URL}/jobroles/${id}`, data);
 export const deleteJobRole = (id) => axios.delete(`${BASE_URL}/jobroles/${id}`);
+
+// placement endpoint
+export const getPlacements = () => axios.get(`${BASE_URL}/placements`);
+export const addPlacement = (data) =>
+  axios.post(`${BASE_URL}/placements`, data);
+export const updatePlacement = (id, data) =>
+  axios.put(`${BASE_URL}/placements/${id}`, data);
+export const deletePlacement = (id) =>
+  axios.delete(`${BASE_URL}/placements/${id}`);
