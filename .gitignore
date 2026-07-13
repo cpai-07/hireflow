@@ -12,3 +12,8 @@ dist/
 # Editor
 .vscode/
 *.swp
+frontend/.vite/
+frontend/dist/
+backend/__pycache__/
+backend/routes/__pycache__/
+*.pyc
