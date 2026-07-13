@@ -26,9 +26,8 @@ For small staffing firms, the candidates, job roles, and placements are typicall
 A complete web application with:
 
 - This is a React front end to a clean, responsive recruiter interface.
-- All business logic handled with a Flask REST API backend
-- Implementing JSON file storage as data layer (brief-approved)
-- Automatically generate emails for offers when a candidate is hired with the help of EmailJS integration.
+- All business logic handled with a Flask REST API backend.
+- Implementing JSON file storage as data layer.
 
 ---
 
@@ -40,7 +39,6 @@ A complete web application with:
 | Backend         | Flask (Python)     | Lightweight REST API, brief-recommended    |
 | Storage         | JSON files         | Brief-approved, zero setup, human-readable |
 | HTTP Client     | Axios              | Cleaner API calls than raw fetch()         |
-| External API    | EmailJS            | Sends offer emails automatically           |
 | Version Control | GitHub             | Brief requirement, feature-branch workflow |
 | Lucide React    | 0.383.0            | Icon library for UI elements               |
 
@@ -74,7 +72,7 @@ hireflow/
         │   └── Toast.jsx       ← Auto-dismiss notifications
         └── pages/
             ├── Dashboard.jsx   ← Stats overview and pipeline
-            ├── Candidates.jsx  ← Candidate management + EmailJS
+            ├── Candidates.jsx  ← Candidate management
             ├── JobRoles.jsx    ← Job role management
             ├── Departments.jsx ← Department management
             └── Placements.jsx  ← Placement records
