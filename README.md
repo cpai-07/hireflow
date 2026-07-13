@@ -1,5 +1,13 @@
 # HireFlow:Staffing Agency Recruitment Management System
 
+**Module:** Programming for Information Systems  
+**Student:** Chinmay S Pai  
+**Student ID:** 20102062  
+**Institution:** Dublin Business School  
+**Programme:** MSc in Information Systems
+
+---
+
 ## Project Overview
 
 HireFlow is a web based Information System that has been created for a small staffing agency called HireFlow Recruitment Ltd.
@@ -27,13 +35,14 @@ A complete web application with:
 ## Tech Stack
 
 | Layer           | Technology         | Reason                                     |
-| --------------- | ------------------ | ------------------------------------------ |
+| --------------- | ------------------ | ------------------------------------------ | ------------------ |
 | Frontend        | React (JavaScript) | Component-based, fast, industry standard   |
 | Backend         | Flask (Python)     | Lightweight REST API, brief-recommended    |
 | Storage         | JSON files         | Brief-approved, zero setup, human-readable |
 | HTTP Client     | Axios              | Cleaner API calls than raw fetch()         |
 | External API    | EmailJS            | Sends offer emails automatically           |
 | Version Control | GitHub             | Brief requirement, feature-branch workflow |
+| Lucide React    | 0.383.0            | Icon library for UI elements               | https://lucide.dev |
 
 ---
 
