@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from utils.helpers import read, write, new_id, now
 
+# help from an AI to seperate the routes(to follow MVC architecture)
 # Blueprint wraps the routes in app.py
 candidates_bp = Blueprint("candidates",__name__,url_prefix="/api/candidates")
 

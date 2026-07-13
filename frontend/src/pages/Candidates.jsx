@@ -1,3 +1,6 @@
+// documentation refered here for lucide-react icons: https://lucide.dev/guide/react/advanced/global-styling
+// also taken help from an AI for styling and responsiveness of the app
+
 import { useEffect, useState } from "react";
 import {
   getCandidates,
