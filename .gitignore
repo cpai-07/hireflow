@@ -7,15 +7,9 @@ venv/
 # Node
 node_modules/
 dist/
-.DS_Store
 
-# Editor
-.vscode/
-*.swp
+# Vite cache
 frontend/.vite/
-frontend/dist/
-backend/__pycache__/
-backend/routes/__pycache__/
-*.pyc
-frontend/src/api/index.js
-frontend/src/components/UI.jsx
+
+# Mac
+.DS_Store
