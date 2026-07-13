@@ -1,6 +1,10 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api";
+// commenting this to deploy it on cloud(testing purpose)
+// const BASE_URL = "http://localhost:5000/api";
+
+// changing URL to deploy it on cloud
+const BASE_URL = "http://34.51.156.66:5000/api";
 
 // candidates
 export const getCandidates = (params) =>
