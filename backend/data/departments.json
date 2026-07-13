@@ -1,0 +1,9 @@
+[
+  {
+    "id": "dept-1",
+    "name": "Engineering",
+    "manager": "Saif rehman",
+    "location": "Dublin",
+    "headcount": 12
+  }
+]
