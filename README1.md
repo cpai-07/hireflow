@@ -20,3 +20,11 @@
 - [Git Workflow](#git-workflow)
 - [Key Design Decisions](#key-design-decisions)
 - [Roadmap](#roadmap)
+
+---
+
+## Project Overview
+
+HireFlow is a web based Information System application developed for small staffing agency HireFlow Recruitment Ltd.
+
+Smaller staffing agencies usually handle candidates, job roles, and assignments in spreadsheets or on paper. HireFlow takes an individuality approach of fully centralising that, effectively reducing it to a single web application for recruiters to manage the entire end to end hiring lifecycle from intake through until placement.
