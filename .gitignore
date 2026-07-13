@@ -17,3 +17,5 @@ frontend/dist/
 backend/__pycache__/
 backend/routes/__pycache__/
 *.pyc
+frontend/src/api/index.js
+frontend/src/components/UI.jsx
