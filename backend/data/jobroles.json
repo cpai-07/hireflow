@@ -1,0 +1,21 @@
+[
+  {
+    "id": "role-2",
+    "title": "Data Scientist",
+    "department": "Marketing",
+    "salaryBand": "\u20ac35,000 - \u20ac45,000",
+    "level": "Junior",
+    "openPositions": "2",
+    "updated_at": "2026-07-13 16:48"
+  },
+  {
+    "id": "role-001d12eb",
+    "title": "Software Engineer",
+    "department": "CS",
+    "salaryBand": "40000",
+    "level": "Mid",
+    "openPositions": "2",
+    "created_at": "2026-07-08 00:33",
+    "updated_at": "2026-07-13 16:48"
+  }
+]
