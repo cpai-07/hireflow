@@ -1,9 +1,10 @@
 [
   {
-    "id": "dept-1",
+    "id": "dept-0b54c856",
     "name": "Engineering",
-    "manager": "Saif rehman",
-    "location": "Dublin",
-    "headcount": 12
+    "manager": "Sahil",
+    "location": "India",
+    "headcount": "7",
+    "created_at": "2026-07-13 18:38"
   }
 ]
