@@ -20,3 +20,10 @@ export const updateDepartment = (id, data) =>
   axios.put(`${BASE_URL}/departments/${id}`, data);
 export const deleteDepartment = (id) =>
   axios.delete(`${BASE_URL}/departments/${id}`);
+
+// role endpoint
+export const getJobRoles = () => axios.get(`${BASE_URL}/jobroles`);
+export const addJobRole = (data) => axios.post(`${BASE_URL}/jobroles`, data);
+export const updateJobRole = (id, data) =>
+  axios.put(`${BASE_URL}/jobroles/${id}`, data);
+export const deleteJobRole = (id) => axios.delete(`${BASE_URL}/jobroles/${id}`);
