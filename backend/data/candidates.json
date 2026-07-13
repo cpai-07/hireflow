@@ -1,26 +1,26 @@
 [
   {
-    "id": "cand-8a05418a",
-    "name": "Chinmay",
-    "email": "chinmay@yopmail.com",
-    "phone": "",
-    "role": "software enginner",
-    "department": "Engineering",
-    "status": "applied",
-    "notes": "poor candidate",
-    "created_at": "2026-07-13 15:16",
-    "updated_at": "2026-07-13 16:47"
-  },
-  {
     "id": "cand-adaa8493",
     "name": "Sahil",
     "email": "sahil@yopmail.com",
     "phone": "",
     "role": "Data Scientist",
     "department": "Enginering",
-    "status": "applied",
+    "status": "interviewed",
     "notes": "Excellent candidate",
     "created_at": "2026-07-13 16:45",
-    "updated_at": "2026-07-13 16:46"
+    "updated_at": "2026-07-13 18:47"
+  },
+  {
+    "id": "cand-b5c7bf65",
+    "name": "test",
+    "email": "test@yopmail.com",
+    "phone": "",
+    "role": "test",
+    "department": "Engineering",
+    "status": "applied",
+    "notes": "good candidate",
+    "created_at": "2026-07-13 18:36",
+    "updated_at": "2026-07-13 18:39"
   }
 ]
