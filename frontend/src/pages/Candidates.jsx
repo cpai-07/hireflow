@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import emailjs from "@emailjs/browser";
 import {
   getCandidates,
   addCandidate,
