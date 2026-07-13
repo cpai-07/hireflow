@@ -69,6 +69,8 @@ export default function Candidates({ showToast }) {
     setModal(true);
   };
 
+  console.log("modal chinmay", modal);
+
   // edit modal
   const openEdit = (candidate) => {
     setEditing(candidate);
@@ -223,7 +225,7 @@ export default function Candidates({ showToast }) {
 
       {/* Add / Edit Modal */}
       {modal && (
-        <div className="modal-overlay" onClick={(e) => setModal(false)}>
+        <div className="modal-overlay">
           <div className="modal">
             <div className="modal-header">
               <h2>{editing ? "Edit Candidate" : "Add New Candidate"}</h2>
