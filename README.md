@@ -35,14 +35,14 @@ A complete web application with:
 ## Tech Stack
 
 | Layer           | Technology         | Reason                                     |
-| --------------- | ------------------ | ------------------------------------------ | ------------------ |
+| --------------- | ------------------ | ------------------------------------------ |
 | Frontend        | React (JavaScript) | Component-based, fast, industry standard   |
 | Backend         | Flask (Python)     | Lightweight REST API, brief-recommended    |
 | Storage         | JSON files         | Brief-approved, zero setup, human-readable |
 | HTTP Client     | Axios              | Cleaner API calls than raw fetch()         |
 | External API    | EmailJS            | Sends offer emails automatically           |
 | Version Control | GitHub             | Brief requirement, feature-branch workflow |
-| Lucide React    | 0.383.0            | Icon library for UI elements               | https://lucide.dev |
+| Lucide React    | 0.383.0            | Icon library for UI elements               |
 
 ---
 
