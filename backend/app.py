@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-import json, os, uuid
-from datetime import datetime
+from routes.candidates import candidates_bp
+from routes.jobroles import jobroles_bp
+from routes.departments import departments_bp
+from routes.placements import placement_bp
 
 app = Flask(__name__)
 
@@ -10,40 +12,18 @@ app = Flask(__name__)
 # call our Flask API (port 5000) — it's a browser security rule.
 CORS(app)
 
-# storage path
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+# candidate route
+app.register_blueprint(candidates_bp)
 
-FILES = {
-    "candidates":  os.path.join(DATA_DIR, "candidates.json"),
-    "jobroles":    os.path.join(DATA_DIR, "jobroles.json"),
-    "departments": os.path.join(DATA_DIR, "departments.json"),
-    "placements":  os.path.join(DATA_DIR, "placements.json"),
-}
+# Job route
+app.register_blueprint(jobroles_bp)
 
+# department route
+app.register_blueprint(departments_bp)
 
-# helper functions
-def read(key):
-    # Open JSON file and read data
-    with open(FILES[key], "r") as file:
-        data = json.load(file)
+# placement route
+app.register_blueprint(placement_bp)
 
-    return data
-
-
-def write(key, data):
-    # Open JSON file and save data
-    with open(FILES[key], "w") as file:
-        json.dump(data, file, indent=2)
-
-
-def new_id(prefix=""):
-    # Create unique ID
-    return prefix + str(uuid.uuid4())[:8]
-
-
-def now():
-    # Return current date and time
-    return datetime.now().strftime("%Y-%m-%d %H:%M")
 
 # run cmd
 if __name__ == "__main__":
