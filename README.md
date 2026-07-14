@@ -1,4 +1,4 @@
-# HireFlow — Staffing Agency Recruitment Management System
+# HireFlow: Staffing Agency Recruitment Management System
 
 |                 |                                               |
 | --------------- | --------------------------------------------- |
