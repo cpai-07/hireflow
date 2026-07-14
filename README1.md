@@ -169,3 +169,14 @@ Open your browser at **http://localhost:5173** to use HireFlow.
 | POST   | `/api/departments`     | Add department      |
 | PUT    | `/api/departments/:id` | Update department   |
 | DELETE | `/api/departments/:id` | Delete department   |
+
+### Placements
+
+| Method | Endpoint              | Description          |
+| ------ | --------------------- | -------------------- |
+| GET    | `/api/placements`     | Get all placements   |
+| POST   | `/api/placements`     | Record new placement |
+| PUT    | `/api/placements/:id` | Update placement     |
+| DELETE | `/api/placements/:id` | Delete placement     |
+
+---
