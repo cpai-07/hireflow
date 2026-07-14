@@ -95,3 +95,44 @@ hireflow/
 ```
 
 ---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+- Node.js 18+
+- npm
+
+### Step 1 — Clone the Repository
+
+```bash
+git clone https://github.com/cpai-07/hireflow.git
+cd hireflow
+```
+
+### Step 2 — Start the Backend (Flask)
+
+```bash
+cd backend
+pip3 install -r requirements.txt
+python3 app.py
+```
+
+Flask will start on **http://localhost:5000**
+
+### Step 3 — Start the Frontend (React)
+
+Open a second terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+React will start on **http://localhost:5173**
+
+Open your browser at **http://localhost:5173** to use HireFlow.
+
+---
