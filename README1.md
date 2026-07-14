@@ -180,3 +180,27 @@ Open your browser at **http://localhost:5173** to use HireFlow.
 | DELETE | `/api/placements/:id` | Delete placement     |
 
 ---
+
+## Git Workflow
+
+This project follows a feature-branch workflow:
+
+```
+main          ← stable, working code only
+└── dev       ← integration branch
+    ├── feature/frontend-setup
+    ├── feature/components
+    ├── feature/api-layer
+    ├── feature/dashboard
+    ├── feature/candidates
+    ├── feature/jobroles
+    ├── feature/departments
+    ├── feature/placements
+    ├── feature/backend-setup
+    ├── feature/backend-routes
+    ├── feature/data-setup
+```
+
+All work was developed on individual feature branches and merged into `dev` once complete. Only stable, tested code was merged into `main`.
+
+---
