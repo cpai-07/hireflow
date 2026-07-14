@@ -28,3 +28,10 @@
 HireFlow is a web based Information System application developed for small staffing agency HireFlow Recruitment Ltd.
 
 Smaller staffing agencies usually handle candidates, job roles, and assignments in spreadsheets or on paper. HireFlow takes an individuality approach of fully centralising that, effectively reducing it to a single web application for recruiters to manage the entire end to end hiring lifecycle from intake through until placement.
+
+## The Problem It Solves
+
+- No one central system in place to track the candidate progress.
+- Challenge in searching and filtering candidates based on role and stage.
+- No auto notify candidates for a Placement Confirmed.
+- Manually matching candidates for job roles is an effort complicated with errors.
