@@ -1,10 +1,12 @@
 # HireFlow — Staffing Agency Recruitment Management System
 
-**Module:** Programming for Information Systems (B9IS123)
-**Student:** Chinmay S Pai
-**Student ID:** 20102062
-**Institution:** Dublin Business School
-**Programme:** MSc in Information Systems
+|                 |                                               |
+| --------------- | --------------------------------------------- |
+| **Module**      | Programming for Information Systems (B9IS123) |
+| **Student**     | Chinmay S Pai                                 |
+| **Student ID**  | 20102062                                      |
+| **Institution** | Dublin Business School                        |
+| **Programme**   | MSc in Information Systems                    |
 
 ---
 
