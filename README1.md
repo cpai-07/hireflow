@@ -204,3 +204,19 @@ main          ← stable, working code only
 All work was developed on individual feature branches and merged into `dev` once complete. Only stable, tested code was merged into `main`.
 
 ---
+
+## Key Design Decisions
+
+**Why JSON over SQLite?**
+However, the project brief clearly states that you are allowed to save your data in JSON files. They're easier to set up, human readable, simpler to debug and more suitable for a small dataset in proof of concept system than a complete relational database.
+
+**Why React over plain JavaScript?**
+React fulfills the JavaScript requirement of the brief and is a component based framework that helps in building maintainable and scalable UI. It is also mentioned in the brief as a suitable framework.
+
+**Why Axios over `fetch()`?**
+Axios makes HTTP requests a bit easier and also automatically parses JSON responses, so error handling with.catch is simplified, but the single base URL does not have to be rewritten for every API call.
+
+**Why Flask?**
+The short also suggests using Flask. This is a no frills microframework that comes with bare minimum routing and handler for the requests which is perfect fit for REST API POC.
+
+---
