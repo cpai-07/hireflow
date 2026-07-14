@@ -261,3 +261,10 @@ The following tools, libraries, and resources were used in the development of th
 | --------------- | ---------------------------------- |
 | **Frontend**    | http://34.51.156.66                |
 | **Backend API** | http://34.51.156.66/api/candidates |
+
+## Repository
+
+|                 | Link                                                |
+| --------------- | --------------------------------------------------- |
+| **GitHub Repo** | https://github.com/cpai-07/hireflow                 |
+| **Clone**       | `git clone https://github.com/cpai-07/hireflow.git` |
