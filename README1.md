@@ -220,3 +220,14 @@ Axios makes HTTP requests a bit easier and also automatically parses JSON respon
 The short also suggests using Flask. This is a no frills microframework that comes with bare minimum routing and handler for the requests which is perfect fit for REST API POC.
 
 ---
+
+## Roadmap
+
+Possible future enhancements beyond the current scope:
+
+- [ ] Automated email notification to candidates on placement confirmation.
+- [ ] Authentication and role based access (recruiter vs. admin).
+- [ ] Migration from JSON storage to a relational database (e.g. PostgreSQL).
+- [ ] Advanced filtering and reporting on placement history.
+
+---
