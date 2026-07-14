@@ -145,7 +145,7 @@ Open your browser at **http://localhost:5173** to use HireFlow.
 | ------ | ------------------------------ | ---------------------- |
 | GET    | `/api/candidates`              | Get all candidates     |
 | GET    | `/api/candidates?status=hired` | Filter by status       |
-| GET    | `/api/candidates?search=john`  | Search by name or role |
+| GET    | `/api/candidates?search=chin`  | Search by name or role |
 | GET    | `/api/candidates/:id`          | Get single candidate   |
 | POST   | `/api/candidates`              | Add new candidate      |
 | PUT    | `/api/candidates/:id`          | Update candidate       |
@@ -160,3 +160,12 @@ Open your browser at **http://localhost:5173** to use HireFlow.
 | POST   | `/api/jobroles`                 | Add new job role  |
 | PUT    | `/api/jobroles/:id`             | Update job role   |
 | DELETE | `/api/jobroles/:id`             | Delete job role   |
+
+### Departments
+
+| Method | Endpoint               | Description         |
+| ------ | ---------------------- | ------------------- |
+| GET    | `/api/departments`     | Get all departments |
+| POST   | `/api/departments`     | Add department      |
+| PUT    | `/api/departments/:id` | Update department   |
+| DELETE | `/api/departments/:id` | Delete department   |
