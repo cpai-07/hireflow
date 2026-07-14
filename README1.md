@@ -43,3 +43,19 @@ A full stack web application including:
 - A React frontend with a neat, responsive recruiter UI.
 - Flask REST API as backend which is used to handle all the business logic.
 - Reading data layers + Storage of JSON files.
+
+---
+
+## Tech Stack
+
+| Layer           | Technology             | Reason                                      |
+| --------------- | ---------------------- | ------------------------------------------- |
+| Frontend        | React (JavaScript)     | Component based, fast, industry standard    |
+| Build Tool      | Vite                   | Fast dev server and build tooling for React |
+| Backend         | Flask (Python)         | Lightweight REST API, brief recommended     |
+| Storage         | JSON files             | Brief approved, zero setup, human readable  |
+| HTTP Client     | Axios                  | Cleaner API calls than raw fetch()          |
+| Icons           | Lucide React (0.383.0) | Icon library for UI elements                |
+| Version Control | GitHub                 | Brief requirement, feature branch workflow  |
+
+---
