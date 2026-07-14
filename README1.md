@@ -136,3 +136,17 @@ React will start on **http://localhost:5173**
 Open your browser at **http://localhost:5173** to use HireFlow.
 
 ---
+
+## API Endpoints
+
+### Candidates
+
+| Method | Endpoint                       | Description            |
+| ------ | ------------------------------ | ---------------------- |
+| GET    | `/api/candidates`              | Get all candidates     |
+| GET    | `/api/candidates?status=hired` | Filter by status       |
+| GET    | `/api/candidates?search=john`  | Search by name or role |
+| GET    | `/api/candidates/:id`          | Get single candidate   |
+| POST   | `/api/candidates`              | Add new candidate      |
+| PUT    | `/api/candidates/:id`          | Update candidate       |
+| DELETE | `/api/candidates/:id`          | Delete candidate       |
