@@ -10,6 +10,24 @@
 
 ---
 
+## Live Deployment
+
+|                 | URL                                |
+| --------------- | ---------------------------------- |
+| **Frontend**    | http://34.51.156.66                |
+| **Backend API** | http://34.51.156.66/api/candidates |
+
+---
+
+## Repository
+
+|                 | Link                                                |
+| --------------- | --------------------------------------------------- |
+| **GitHub Repo** | https://github.com/cpai-07/hireflow                 |
+| **Clone**       | `git clone https://github.com/cpai-07/hireflow.git` |
+
+---
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -254,17 +272,3 @@ The following tools, libraries, and resources were used in the development of th
 
 - Official React documentation
 - Official Flask documentation
-
-## Live Deployment
-
-|                 | URL                                |
-| --------------- | ---------------------------------- |
-| **Frontend**    | http://34.51.156.66                |
-| **Backend API** | http://34.51.156.66/api/candidates |
-
-## Repository
-
-|                 | Link                                                |
-| --------------- | --------------------------------------------------- |
-| **GitHub Repo** | https://github.com/cpai-07/hireflow                 |
-| **Clone**       | `git clone https://github.com/cpai-07/hireflow.git` |
