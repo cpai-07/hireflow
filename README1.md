@@ -59,3 +59,39 @@ A full stack web application including:
 | Version Control | GitHub                 | Brief requirement, feature branch workflow  |
 
 ---
+
+## Project Structure
+
+```
+hireflow/
+├── backend/
+│   ├── app.py                  ← Flask REST API — all routes
+│   ├── requirements.txt        ← Python dependencies
+│   └── data/
+│       ├── candidates.json     ← Candidate records
+│       ├── jobroles.json       ← Job role records
+│       ├── departments.json    ← Department records
+│       └── placements.json     ← Placement records
+│
+└── frontend/
+    ├── index.html              ← HTML entry point
+    ├── vite.config.js          ← Vite configuration
+    ├── package.json            ← Node dependencies
+    └── src/
+        ├── main.jsx            ← React app entry point
+        ├── App.jsx             ← Root component, page state
+        ├── index.css           ← Global styles and CSS variables
+        ├── api/
+        │   └── api.js          ← Axios API service layer
+        ├── components/
+        │   ├── Sidebar.jsx     ← Navigation sidebar
+        │   └── Toast.jsx       ← Notifications
+        └── pages/
+            ├── Dashboard.jsx   ← Stats overview and pipeline
+            ├── Candidates.jsx  ← Candidate management
+            ├── JobRoles.jsx    ← Job role management
+            ├── Departments.jsx ← Department management
+            └── Placements.jsx  ← Placement records
+```
+
+---
