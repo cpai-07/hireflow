@@ -150,3 +150,13 @@ Open your browser at **http://localhost:5173** to use HireFlow.
 | POST   | `/api/candidates`              | Add new candidate      |
 | PUT    | `/api/candidates/:id`          | Update candidate       |
 | DELETE | `/api/candidates/:id`          | Delete candidate       |
+
+### Job Roles
+
+| Method | Endpoint                        | Description       |
+| ------ | ------------------------------- | ----------------- |
+| GET    | `/api/jobroles`                 | Get all job roles |
+| GET    | `/api/jobroles?search=engineer` | Search roles      |
+| POST   | `/api/jobroles`                 | Add new job role  |
+| PUT    | `/api/jobroles/:id`             | Update job role   |
+| DELETE | `/api/jobroles/:id`             | Delete job role   |
