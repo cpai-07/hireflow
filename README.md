@@ -254,3 +254,10 @@ The following tools, libraries, and resources were used in the development of th
 
 - Official React documentation
 - Official Flask documentation
+
+## Live Deployment
+
+|                 | URL                                |
+| --------------- | ---------------------------------- |
+| **Frontend**    | http://34.51.156.66                |
+| **Backend API** | http://34.51.156.66/api/candidates |
