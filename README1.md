@@ -35,3 +35,11 @@ Smaller staffing agencies usually handle candidates, job roles, and assignments 
 - Challenge in searching and filtering candidates based on role and stage.
 - No auto notify candidates for a Placement Confirmed.
 - Manually matching candidates for job roles is an effort complicated with errors.
+
+## The Solution
+
+A full stack web application including:
+
+- A React frontend with a neat, responsive recruiter UI.
+- Flask REST API as backend which is used to handle all the business logic.
+- Reading data layers + Storage of JSON files.
