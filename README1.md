@@ -231,3 +231,24 @@ Possible future enhancements beyond the current scope:
 - [ ] Advanced filtering and reporting on placement history.
 
 ---
+
+## References & Acknowledgements
+
+The following tools, libraries, and resources were used in the development of this project:
+
+**AI Tools**
+
+- [Claude](https://claude.ai) (Anthropic) — used for CSS, responsiveness and some BE logics.
+
+**Libraries & Frameworks**
+
+- [React](https://react.dev) — frontend UI library
+- [Vite](https://vitejs.dev) — frontend build tool and dev server
+- [Flask](https://flask.palletsprojects.com) — backend REST API framework
+- [Axios](https://axios-http.com) — HTTP client for API requests
+- [Lucide React](https://lucide.dev) — icon library
+
+**Documentation & Learning Resources**
+
+- Official React documentation
+- Official Flask documentation
