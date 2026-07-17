@@ -85,33 +85,33 @@ A full stack web application including:
 ```
 hireflow/
 ├── backend/
-│   ├── app.py                  ← Flask REST API — all routes
-│   ├── requirements.txt        ← Python dependencies
+│   ├── app.py                  - Flask REST API — all routes
+│   ├── requirements.txt        - Python dependencies
 │   └── data/
-│       ├── candidates.json     ← Candidate records
-│       ├── jobroles.json       ← Job role records
-│       ├── departments.json    ← Department records
-│       └── placements.json     ← Placement records
+│       ├── candidates.json     - Candidate records
+│       ├── jobroles.json       - Job role records
+│       ├── departments.json    - Department records
+│       └── placements.json     - Placement records
 │
 └── frontend/
-    ├── index.html              ← HTML entry point
-    ├── vite.config.js          ← Vite configuration
-    ├── package.json            ← Node dependencies
+    ├── index.html              - HTML entry point
+    ├── vite.config.js          - Vite configuration
+    ├── package.json            - Node dependencies
     └── src/
-        ├── main.jsx            ← React app entry point
-        ├── App.jsx             ← Root component, page state
-        ├── index.css           ← Global styles and CSS variables
+        ├── main.jsx            - React app entry point
+        ├── App.jsx             - Root component, page state
+        ├── index.css           - Global styles and CSS variables
         ├── api/
-        │   └── api.js          ← Axios API service layer
+        │   └── api.js          - Axios API service layer
         ├── components/
-        │   ├── Sidebar.jsx     ← Navigation sidebar
-        │   └── Toast.jsx       ← Notifications
+        │   ├── Sidebar.jsx     - Navigation sidebar
+        │   └── Toast.jsx       - Notifications
         └── pages/
-            ├── Dashboard.jsx   ← Stats overview and pipeline
-            ├── Candidates.jsx  ← Candidate management
-            ├── JobRoles.jsx    ← Job role management
-            ├── Departments.jsx ← Department management
-            └── Placements.jsx  ← Placement records
+            ├── Dashboard.jsx   - Stats overview and pipeline
+            ├── Candidates.jsx  - Candidate management
+            ├── JobRoles.jsx    - Job role management
+            ├── Departments.jsx - Department management
+            └── Placements.jsx  - Placement records
 ```
 
 ---
@@ -206,8 +206,8 @@ Open your browser at **http://localhost:5173** to use HireFlow.
 This project follows a feature-branch workflow:
 
 ```
-main          ← stable, working code only
-└── dev       ← integration branch
+main          - stable, working code only
+└── dev       - integration branch
     ├── feature/frontend-setup
     ├── feature/components
     ├── feature/api-layer
@@ -258,7 +258,12 @@ The following tools, libraries, and resources were used in the development of th
 
 **AI Tools**
 
-- [Claude](https://claude.ai) (Anthropic) — used for CSS, responsiveness and some BE logics.
+- [Claude](https://claude.ai/share/1833f59d-68fb-4be3-b27f-a9d27d6ddff0) (Anthropic)
+  - Initial Layout like Boiler plates, Structure of the page like tables, Components(like toast, Dashboard, Pipeline) etc.
+  - CSS and Responsiveness (aesthetic UI).
+  - For Ideas.
+  - To understand some of the Backend and Frontend logics.
+  - Documentation: to check Syntax(eg: how to add a Table, element hierarchy) and corrected grammar.
 
 **Libraries & Frameworks**
 
